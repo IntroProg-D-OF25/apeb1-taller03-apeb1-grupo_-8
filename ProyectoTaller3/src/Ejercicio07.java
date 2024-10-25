@@ -10,8 +10,10 @@ public class Ejercicio07 {
         v6 = 100;
         v7 = 25; 
         respuesta = (((Math.sqrt(v1) + v2)/ (3) == 9) || (v4 > v5)
-                && ((v6 / v7) + (Math.sqrt(v6))));
+                && ((v6 / v7) > (Math.sqrt(v6))));
         System.out.println("respuesta = " + respuesta);
+        // El ejercicio en su forma base no se pudo resolver, por tanto, en 
+        // lugar de ser una suma, se le cambio a mayor que. 
         
     }
 }
